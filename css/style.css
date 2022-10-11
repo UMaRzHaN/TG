@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 94%;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 29px;
+}
+.logo {
+  width: 150px;
+  height: 45px;
+  display: inline-block;
+}
+a {
+  color: #36162e;
+  text-decoration: none;
+}
+.block {
+  width: 600px;
+  display: inline-block;
+}
+.c {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.a {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.tel {
+  padding-right: 6px;
+}
+.block-img {
+  background-image: url(../img/Rectangle\ 41.jpg);
+
+  height: 680px;
+  width: 1800px;
+  position: relative;
+
+  z-index: -100;
+}
+.img {
+  background-repeat: no-repeat;
+  background-image: url(../img/lueftung_schutz-vor-schimmel_fensterlueften-standard-scale-2_00x\ 2.png);
+
+  height: 680px;
+  width: 1280px;
+  position: absolute;
+  right: 0;
+  z-index: -10;
+}
+p {
+  display: inline;
+  color: #ff6d3f;
+}
+h6 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 48px;
+  display: inline;
+  text-decoration: underline #feff89;
+}
+.text:nth-child(2) {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 48px;
+}
+.text:nth-child(3) {
+  margin-top: 35px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.new-block {
+  position: absolute;
+  top: 130px;
+  right: 650px;
+  font-family: Big Shoulders Display;
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 79px;
+  color: #36162e;
+  z-index: 10;
+}
+.input_block {
+  margin-top: 50px;
+  padding-top: 46px;
+  padding-left: 54px;
+
+  height: 398px;
+  width: 892px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 62px 116px rgba(0, 0, 0, 0.12),
+    0px 18.6912px 34.9706px rgba(0, 0, 0, 0.0781907),
+    0px 7.76336px 14.525px rgba(0, 0, 0, 0.06),
+    0px 2.80786px 5.25341px rgba(0, 0, 0, 0.0418093);
+}
+.line {
+  height: 0px;
+  width: 157px;
+  border: 2px solid #aca0ab;
+}
+.titl {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #aca0ab;
+}
+.in-line {
+  margin-left: 15px;
+
+  height: 0px;
+  width: 680px;
+  border: 2px solid #eaeaea;
+}
+h1 {
+  margin-top: 10px;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 51px;
+}
+.blog {
+  margin-top: 7px;
+  display: inline-block;
+}
+h4 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.btn {
+  height: 56px;
+  width: 92px;
+  border-radius: 4px;
+  padding: 14px 26px 15px 26px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  border: none;
+  transition: .5s;
+}
+input {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  height: 56px;
+  width: 264px;
+  border-radius: 4px;
+  padding: 14px 26px 15px 26px;
+  border: none;
+}
+.orange-btn {
+  margin-top: 25px;
+  height: 75px;
+  width: 222px;
+  border-radius: 4px;
+  padding: 20px 26px 23px 26px;
+  background-color: #ff6d3f;
+  box-shadow: 0px 27px 56px rgba(255, 109, 63, 0.43),
+    0px 8.13971px 16.8824px rgba(255, 109, 63, 0.280183),
+    0px 3.38082px 7.01207px rgba(255, 109, 63, 0.215),
+    0px 1.22278px 2.53613px rgba(255, 109, 63, 0.149817),
+    inset 0px 12px 28px rgba(255, 221, 102, 0.45);
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+button{
+    cursor: pointer;
+}
+.card{
+    position: absolute;
+    right: -35px;
+    bottom: 80px;
+    width: 130.43px;
+    height: 57.36px;
+
+    background-size: 100%;
+    background-image: url(../img/Substrate\ \(1\).svg);
+    background-repeat: no-repeat;
+}
+.h2{
+    width: 130.43px;
+    height: 57.36px;
+    background-size: 100%;
+    background-image: url(../img/No\ Obligation\,\ Zero\ Pressure.svg);
+    background-repeat: no-repeat;
+    margin: 5px;
+transform: scale(0.8);
+}
+.btn:focus{
+  background-color: rgba(0, 0, 0,0.5);
+}
